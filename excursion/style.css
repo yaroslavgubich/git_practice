@@ -1,0 +1,13 @@
+* {
+  color: aliceblue;
+}
+body {
+  background: #000;
+}
+section,
+main,
+header,
+footer {
+  border: 1px solid white;
+}
+section

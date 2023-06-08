@@ -1,0 +1,122 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1686262260957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686262266240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-b\n\\ No newline at end of file\n+bg\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262271330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-bg\n\\ No newline at end of file\n+b\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262286453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-b\n\\ No newline at end of file\n+bg\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262294396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-bg\n\\ No newline at end of file\n+bg{ background\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262300936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-bg{ background\n\\ No newline at end of file\n+body}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262306414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-body}\n\\ No newline at end of file\n+body {\r\n+  background: #000;\r\n+}\r\n"
+                },
+                {
+                    "date": 1686262601126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n+\r\n body {\r\n   background: #000;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262606277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-\r\n+*\r\n body {\r\n   background: #000;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262612870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n-*\r\n+*{\r\n+    color: aliceblue;\r\n+}\r\n body {\r\n   background: #000;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262652927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n-*{\r\n-    color: aliceblue;\r\n+* {\r\n+  color: aliceblue;\r\n }\r\n body {\r\n   background: #000;\r\n }\r\n+d\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262659671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-d\n\\ No newline at end of file\n+div{\r\n+    border: 1px solid #w\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686262668762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-div{\r\n-    border: 1px solid #w\r\n-}\n\\ No newline at end of file\n+div {\r\n+  border: 1px solid #white;\r\n+}\r\n"
+                },
+                {
+                    "date": 1686262678205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  border: 1px solid #white;\r\n+  border: 1px solid white;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262686880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  border: 1px solid white;\r\n+  border: 1pxsolid white;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262695847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  border: 1pxsolid white;\r\n+  border:\r\n }\r\n"
+                },
+                {
+                    "date": 1686262701749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  border:\r\n+  bordersol\r\n }\r\n"
+                },
+                {
+                    "date": 1686262708798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  bordersol\r\n+  border: 1px solid #000;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262713866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n div {\r\n-  border: 1px solid #000;\r\n+  border: 1px solid #ffffff;\r\n }\r\n"
+                },
+                {
+                    "date": 1686262724458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,5 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-div {\r\n-  border: 1px solid #ffffff;\r\n-}\r\n+se\r\n"
+                },
+                {
+                    "date": 1686262729848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-se\r\n+section\r\n"
+                },
+                {
+                    "date": 1686262735346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-section\r\n+section, main,\r\n"
+                },
+                {
+                    "date": 1686262747921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-section, main,\r\n+section, main, hea\r\n"
+                },
+                {
+                    "date": 1686262753211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-section, main, hea\r\n+section, main, header, footer {\r\n+    r\r\n+}\r\n"
+                },
+                {
+                    "date": 1686262759603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n body {\r\n   background: #000;\r\n }\r\n section, main, header, footer {\r\n-    r\r\n+    border: 1px solid\r\n }\r\n"
+                },
+                {
+                    "date": 1686263403720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,11 @@\n }\r\n body {\r\n   background: #000;\r\n }\r\n-section, main, header, footer {\r\n-    border: 1px solid\r\n+section,\r\n+main,\r\n+header,\r\n+footer {\r\n+  border: 1px solid white;\r\n }\r\n+bo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686263413263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,4 @@\n header,\r\n footer {\r\n   border: 1px solid white;\r\n }\r\n-bo\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1686262260957,
+            "name": "Commit-0",
+            "content": "b"
+        }
+    ]
+}

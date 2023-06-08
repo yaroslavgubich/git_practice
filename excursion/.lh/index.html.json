@@ -1,0 +1,69 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+<<<<<<< Updated upstream
+            "activePatchIndex": 11,
+=======
+            "activePatchIndex": 9,
+>>>>>>> Stashed changes
+            "patches": [
+                {
+                    "date": 1685961883908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685961908897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,12 @@\n-!\n\\ No newline at end of file\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <title>Document</title>\r\n+</head>\r\n+<body>\r\n+    p\r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685961957379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,16 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n+\r\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>Document</title>\r\n </head>\r\n+\r\n <body>\r\n-    p\r\n+    <p>Hello world!</p>\r\n+    \r\n </body>\r\n+\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685961965639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    \r\n     <title>Document</title>\r\n </head>\r\n \r\n <body>\r\n"
+                },
+                {
+                    "date": 1685961979140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,14 +4,14 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-    \r\n+    <link rel=\"stylesheet\" href=\"style.css\">\r\n     <title>Document</title>\r\n </head>\r\n \r\n <body>\r\n     <p>Hello world!</p>\r\n     \r\n </body>\r\n \r\n\\ No newline at end of file\n-</html>\n+</html>d\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685962245877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,1 @@\n-<!DOCTYPE html>\r\n-<html lang=\"en\">\r\n-\r\n-<head>\r\n-    <meta charset=\"UTF-8\">\r\n-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-    <link rel=\"stylesheet\" href=\"style.css\">\r\n-    <title>Document</title>\r\n-</head>\r\n-\r\n-<body>\r\n-    <p>Hello world!</p>\r\n-    \r\n-</body>\r\n-\r\n-</html>d\n\\ No newline at end of file\n+!\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685962255207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,13 @@\n-!\n\\ No newline at end of file\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    \r\n+    <title>Document</title>\r\n+</head>\r\n+<body>\r\n+    \r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685962264200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-    \r\n+    l\r\n     <title>Document</title>\r\n </head>\r\n <body>\r\n     \r\n"
+                },
+                {
+                    "date": 1685962269728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <title>Document</title>\r\n+</head>\r\n+<body>\r\n+    <p></p>\r\n+    \r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685962275071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <link rel=\"stylesheet\" href=\"style.css\">\r\n+    <title>Document</title>\r\n+</head>\r\n+<body>\r\n+    <p>Hello world!</p>\r\n+    \r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+<<<<<<< Updated upstream
+                },
+                {
+                    "date": 1685962544602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\r\n-saf\r\n+safs\r\n     <p>Hello world!</p>\r\n \r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1685962599349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<!DOCTYPE html>for (csaf\r\n+</body>\r\n+sasdafas\n\\ No newline at end of file\n"
+=======
+>>>>>>> Stashed changes
+                }
+            ],
+            "date": 1685961883908,
+            "name": "Commit-0",
+            "content": "!"
+        }
+    ]
+}
