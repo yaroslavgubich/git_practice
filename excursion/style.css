@@ -3,11 +3,75 @@
 }
 body {
   background: #000;
+  display: flex;
+  flex-direction: column;
 }
-section,
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+}
+h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+}
+p {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 21px;
+  color: gray;
+}
+/* section,
 main,
 header,
 footer {
   border: 1px solid white;
+} */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3%;
+  /* padding-top: 3%; */
+  text-align: center;
 }
-section
+
+#guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* #guide>p{
+How to select children p
+} */
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+#coming_soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+footer {
+  color: grey;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px 0px 0px;
+}
+footer > p {
+  color: grey;
+}
+
+a {
+  color: rgb(181, 142, 36);
+  font-size: 18px;
+}
